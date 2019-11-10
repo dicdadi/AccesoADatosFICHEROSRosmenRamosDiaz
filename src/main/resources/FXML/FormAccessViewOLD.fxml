@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<BorderPane fx:id="FormularioView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane fx:id="FormularioGP" prefHeight="401.0" prefWidth="622.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.5999755859375" minWidth="10.0" prefWidth="132.00001220703126" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="551.2000122070312" minWidth="10.0" prefWidth="468.7999877929687" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="idFormulario" alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Id:" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Label fx:id="NombreResidenciaFormulario" alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Nombre residencia:" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="CodigoUniversidadFormulario" alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Codigo universidad:" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label fx:id="PrecioMensualFormulario" alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Precio mensual:" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Label fx:id="Comedor" alignment="CENTER_RIGHT" contentDisplay="CENTER" text="Comedor" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <TextField fx:id="idFormText" alignment="CENTER" prefWidth="350.0" promptText="int" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="25.0" top="5.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="nFormText" alignment="CENTER" promptText="Max 10 caracteres" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="25.0" top="5.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="codFormText" alignment="CENTER" promptText="Max 6 caracteres" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="25.0" top="5.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="precioFormText" alignment="CENTER" promptText="Int" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="25.0" top="5.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="comedorFormText" alignment="CENTER" maxWidth="1.7976931348623157E308" prefWidth="322.0" promptText="true o false / 1 o 0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="25.0" top="5.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+               </padding>
+            </TextField>
+            <Button fx:id="EnviarFormText" mnemonicParsing="false" onAction="#onEnviarFormAction" text="Enviar" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

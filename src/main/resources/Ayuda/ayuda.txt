@@ -1,0 +1,33 @@
+________________Para visualizar ficheros:________________
+-Introducir una ruta actual válida y click sobre "Ver ficheros y carpetas"
+Se mostrará un listado de todos los archivos y directorios de esa ruta.
+-Si queremos mostrar un listado de los archivos y directorios de un directorio mostrado en la lista, seleccionar el directorio y dar click sobre "Ver ficheros y carpetas"
+-Utilizar "BUSCAR" para buscar un directorio o archivo sobre la ruta actual.
+
+________________Para crear un archivo o directorio:________________
+-Introducir una ruta actual válida donde se creará el archivo o directorio.
+-Seleccionar si se creará una carpeta o un fichero.
+-Introducir un nombre.
+-Dar al boton crear.
+
+________________Para eliminar un archivo o directorio:________________
+-Buscar la ruta donde se encuentra:
+	*ruta actual = rutaDondeSeEncuentra --> Ver ficheros y carpeta.
+-Seleccionar en la lista mostrada el archivo o directorio a eliminar.
+-Hacer click en eliminar.
+
+________________Para mover/renombrar archivo:________________
+
+-Buscar la ruta donde se encuentra:
+	*ruta actual = rutaDondeSeEncuentra --> Ver ficheros y carpeta.
+-Seleccionamos el archivo o directorio en la lista mostrada.
+-Introducir una ruta válida junto con nuevo nombre, ejemplo c:\ruta\nuevoNombre
+-Click en mover
+Si no se introduce una ruta, sino un nombre solo, el archivo o directorio se moverá a la carpeta donde se encuentre el proyecto, ejemplo C:\Users\Rosmen\eclipse-workspace\AccesoADatosFICHEROS
+Está diseñado para que se introduzca siempre las rutas absolutas
+
+________________Para ver  el contenido de un archivo, tan solo hay que seleccionarlo en la lista y clickar en ver contenido________________
+
+________________Para modificar el contenido de un archivo, la mejor maneras es visualizarlo primero________________
+-Luego en el area donde se muestra el contenido, modificamos lo que queramos directamente en dicha area.
+-Una vez que hayamos hecho la modificación, hay que darle al boton "Modificar contenido",para que se haga efectivo.
